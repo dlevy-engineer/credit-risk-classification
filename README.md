@@ -13,14 +13,15 @@ The dataset provided was split into training and testing data in accordance with
 ## Results
 
 **Machine Learning Model 1:**
+
 The confusion matrix for v1 of our logistic regression model was as follows:
 
-    ![Model 1 Confusion Matrixt](/images/model_v1_con_mat.png)
+![Model 1 Confusion Matrixt](/images/model_v1_con_mat.png)
 
 
 The model classification report for v1 of our logistic regression model was as follows:
 
-    ![Model 1 Classification Report](/images/model_v1_report.png)
+![Model 1 Classification Report](/images/model_v1_report.png)
 
 The fundamental question is: _How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?_
 
@@ -38,14 +39,15 @@ In other words, 84% of the flags thrown by our system to indicate a high-risk lo
 
 
 **Machine Learning Model 2:**
+
 The confusion matrix for v1 of our logistic regression model was as follows:
 
-    ![Model 2 Confusion Matrixt](/images/model_v2_con_mat.png)
+![Model 2 Confusion Matrixt](/images/model_v2_con_mat.png)
 
 
 The model classification report for v1 of our logistic regression model was as follows:
 
-    ![Model 2 Classification Report](/images/model_v2_report.png)
+![Model 2 Classification Report](/images/model_v2_report.png)
 
 Interestingly, the overall performance of our model seems to have improved slightly, while precision with respect to high-risk loans has decreased. In general, other performance indicators were not meningfully affected across the board.
 
